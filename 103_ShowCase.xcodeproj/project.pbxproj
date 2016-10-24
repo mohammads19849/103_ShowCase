@@ -12,6 +12,10 @@
 		1869CA2C1DBE80A100408866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1869CA2A1DBE80A100408866 /* Main.storyboard */; };
 		1869CA2E1DBE80A100408866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1869CA2D1DBE80A100408866 /* Assets.xcassets */; };
 		1869CA311DBE80A100408866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1869CA2F1DBE80A100408866 /* LaunchScreen.storyboard */; };
+		1869CA401DBE838C00408866 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1869CA3C1DBE838C00408866 /* NotoSans-Bold.ttf */; };
+		1869CA411DBE838C00408866 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1869CA3D1DBE838C00408866 /* NotoSans-BoldItalic.ttf */; };
+		1869CA421DBE838C00408866 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1869CA3E1DBE838C00408866 /* NotoSans-Italic.ttf */; };
+		1869CA431DBE838C00408866 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1869CA3F1DBE838C00408866 /* NotoSans-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		1869CA2D1DBE80A100408866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1869CA301DBE80A100408866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1869CA321DBE80A100408866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1869CA3C1DBE838C00408866 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		1869CA3D1DBE838C00408866 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		1869CA3E1DBE838C00408866 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		1869CA3F1DBE838C00408866 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 		1869CA251DBE80A100408866 /* 103_ShowCase */ = {
 			isa = PBXGroup;
 			children = (
+				1869CA391DBE823B00408866 /* Model */,
+				1869CA3A1DBE824100408866 /* View */,
+				1869CA3B1DBE824800408866 /* Controller */,
+				1869CA381DBE823300408866 /* Recourse */,
 				1869CA261DBE80A100408866 /* AppDelegate.swift */,
 				1869CA281DBE80A100408866 /* ViewController.swift */,
 				1869CA2A1DBE80A100408866 /* Main.storyboard */,
@@ -62,6 +74,38 @@
 				1869CA321DBE80A100408866 /* Info.plist */,
 			);
 			path = 103_ShowCase;
+			sourceTree = "<group>";
+		};
+		1869CA381DBE823300408866 /* Recourse */ = {
+			isa = PBXGroup;
+			children = (
+				1869CA3C1DBE838C00408866 /* NotoSans-Bold.ttf */,
+				1869CA3D1DBE838C00408866 /* NotoSans-BoldItalic.ttf */,
+				1869CA3E1DBE838C00408866 /* NotoSans-Italic.ttf */,
+				1869CA3F1DBE838C00408866 /* NotoSans-Regular.ttf */,
+			);
+			name = Recourse;
+			sourceTree = "<group>";
+		};
+		1869CA391DBE823B00408866 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1869CA3A1DBE824100408866 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1869CA3B1DBE824800408866 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +168,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1869CA401DBE838C00408866 /* NotoSans-Bold.ttf in Resources */,
 				1869CA311DBE80A100408866 /* LaunchScreen.storyboard in Resources */,
+				1869CA411DBE838C00408866 /* NotoSans-BoldItalic.ttf in Resources */,
+				1869CA421DBE838C00408866 /* NotoSans-Italic.ttf in Resources */,
 				1869CA2E1DBE80A100408866 /* Assets.xcassets in Resources */,
 				1869CA2C1DBE80A100408866 /* Main.storyboard in Resources */,
+				1869CA431DBE838C00408866 /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
