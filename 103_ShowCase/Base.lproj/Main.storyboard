@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,25 +19,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-stacked" translatesAutoresizingMaskIntoConstraints="NO" id="HqR-ql-YZF">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dyj-eD-Yul">
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vl0-S4-uZN">
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="128" id="bLh-30-Tz3"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.95504480600357056" green="0.31766349077224731" blue="0.11978312581777573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="Fs9-bP-Fg5"/>
-                                    <constraint firstAttribute="width" constant="240" id="uxg-U8-ZIk"/>
+                                    <constraint firstItem="vl0-S4-uZN" firstAttribute="top" secondItem="Dyj-eD-Yul" secondAttribute="topMargin" constant="40" id="Djo-U5-wJo"/>
+                                    <constraint firstItem="vl0-S4-uZN" firstAttribute="leading" secondItem="Dyj-eD-Yul" secondAttribute="leadingMargin" id="TmO-dC-rc5"/>
+                                    <constraint firstAttribute="height" constant="120" id="WS0-t6-gnv"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="vl0-S4-uZN" secondAttribute="trailing" id="usj-b7-w9O"/>
                                 </constraints>
-                            </imageView>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.95294117647058818" green="0.95294117647058818" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="HqR-ql-YZF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="D3V-G4-glL"/>
-                            <constraint firstItem="HqR-ql-YZF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ghS-qY-C0q"/>
+                            <constraint firstItem="Dyj-eD-Yul" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="UC3-JV-883"/>
+                            <constraint firstAttribute="trailing" secondItem="Dyj-eD-Yul" secondAttribute="trailing" id="WtU-TY-2dc"/>
+                            <constraint firstItem="Dyj-eD-Yul" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="uSB-FV-WLw"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="logo-stacked" width="965" height="655"/>
-    </resources>
 </document>
